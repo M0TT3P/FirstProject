@@ -1,4 +1,37 @@
 {
+    "doctrine/annotations": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "cb4152ebcadbe620ea2261da1a1c5a9b8cea7672"
+        }
+    },
+    "doctrine/cache": {
+        "version": "v1.6.2"
+    },
+    "doctrine/collections": {
+        "version": "v1.4.0"
+    },
+    "doctrine/common": {
+        "version": "v2.7.3"
+    },
+    "doctrine/inflector": {
+        "version": "v1.2.0"
+    },
+    "doctrine/lexer": {
+        "version": "v1.0.1"
+    },
+    "friendsofsymfony/rest-bundle": {
+        "version": "2.2",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "2.2",
+            "ref": "258300d52be6ad59b32a888d5ddafbf9638540ff"
+        }
+    },
     "psr/cache": {
         "version": "1.0.1"
     },
@@ -10,6 +43,15 @@
     },
     "psr/simple-cache": {
         "version": "1.0.1"
+    },
+    "sensio/framework-extra-bundle": {
+        "version": "5.2",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "5.2",
+            "ref": "fb7e19da7f013d0d422fa9bce16f5c510e27609b"
+        }
     },
     "symfony/cache": {
         "version": "v3.4.14"
@@ -89,6 +131,15 @@
             "ref": "ba769b98463f9d5f3d907db32bb64337d1e62ecb"
         }
     },
+    "symfony/security-core": {
+        "version": "v3.4.14"
+    },
+    "symfony/serializer": {
+        "version": "v3.4.14"
+    },
+    "symfony/templating": {
+        "version": "v3.4.14"
+    },
     "symfony/web-server-bundle": {
         "version": "3.3",
         "recipe": {
@@ -100,5 +151,11 @@
     },
     "symfony/yaml": {
         "version": "v3.4.14"
+    },
+    "willdurand/jsonp-callback-validator": {
+        "version": "v1.1.0"
+    },
+    "willdurand/negotiation": {
+        "version": "v2.3.1"
     }
 }
